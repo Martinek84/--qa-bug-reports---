@@ -1,0 +1,27 @@
+# Raport błędu: Niejasna walidacja hasła
+
+**ID:** BR-002  
+**Tytuł:** Komunikat o haśle nie podaje wymaganej długości  
+**Ważność:** Średnia  
+**Priorytet:** Wysoki  
+
+## Środowisko
+- Przeglądarka: Chrome 131.0  
+- System: Windows 11  
+- Strona: Rejestracja WP.pl  
+
+## Kroki do odtworzenia
+1. Otwórz stronę rejestracji WP.pl  
+2. Wpisz hasło „fggtg” (5 znaków)  
+3. Kliknij „Dalej”  
+
+## Wynik rzeczywisty
+- Pojawia się komunikat: „Wpisz wymaganą liczbę znaków”  
+- Komunikat nie podaje wymaganej długości  
+
+## Wynik oczekiwany
+- Powinien pojawić się komunikat: „Hasło musi mieć co najmniej 8 znaków”  
+- Rejestracja powinna być zablokowana do czasu wpisania silnego hasła  
+
+## Załączniki
+- Zrzut ekranu komunikatu
